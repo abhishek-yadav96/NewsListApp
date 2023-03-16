@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityDetails">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="News Details:- "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+<TextView
+    android:id="@+id/details"
+android:layout_width="match_parent"
+android:text=""
+android:textStyle="bold"
+android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/im"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Author"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/au"
+        android:layout_width="match_parent"
+        android:text=""
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:text=""
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Description"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/de"
+        android:layout_width="match_parent"
+        android:text=""
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
